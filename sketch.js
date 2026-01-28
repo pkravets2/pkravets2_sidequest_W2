@@ -9,12 +9,12 @@ let blob = {
   points: 48, // Number of vertices around the circle (higher = smoother)
 
   // Shape deformation settings
-  wobble: 10, // Maximum amount the edge can move in or out
-  wobbleFreq: 1.8, // Controls how lumpy or smooth the blob looks
+  wobble: 18, // Maximum amount the edge can move in or out
+  wobbleFreq: 2.5, // Controls how lumpy or smooth the blob looks
 
   // Time values for animation
   t: 0, // Time input for noise()
-  tSpeed: 0.04, // How fast the blob "breathes"
+  tSpeed: 0.09, // How fast the blob "breathes"
 };
 
 function setup() {
@@ -33,8 +33,8 @@ function draw() {
   // Increment time so noise() changes smoothly every frame
   blob.t += blob.tSpeed;
 
-  const centerX = blob.x + sin(blob.t * 8.0) * 6;
-  const centerY = blob.y + cos(blob.t * 6.0) * 4;
+  const centerX = blob.x + sin(blob.t * 12.0) * 14;
+  const centerY = blob.y + cos(blob.t * 10.0) * 10;
 
   // --- Draw the blob ---
   // We draw a circle made of many points,
