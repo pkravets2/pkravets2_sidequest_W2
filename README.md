@@ -6,7 +6,7 @@ GBDA302 Week 2 Example 1: Blob (Excitment Animation)
 
 ## Authors
 
-Peter Kravets
+Peter Kravets, pkravets, 21101536
 
 ---
 
