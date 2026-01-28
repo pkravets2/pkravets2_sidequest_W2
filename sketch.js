@@ -9,12 +9,12 @@ let blob = {
   points: 48, // Number of vertices around the circle (higher = smoother)
 
   // Shape deformation settings
-  wobble: 48, // Maximum amount the edge can move in or out
-  wobbleFreq: 1.5, // Controls how lumpy or smooth the blob looks
+  wobble: 28, // Maximum amount the edge can move in or out
+  wobbleFreq: 2.1, // Controls how lumpy or smooth the blob looks
 
   // Time values for animation
   t: 0, // Time input for noise()
-  tSpeed: 0.2, // How fast the blob "breathes"
+  tSpeed: 0.09, // How fast the blob "breathes"
 };
 
 function setup() {
